@@ -7,18 +7,19 @@ import SiteDetail from '@/components/pages/SiteDetail'
 import MyOrders from '@/components/pages/MyOrders'
 import Wallet from '@/components/pages/Wallet'
 import Checkout from '@/components/pages/Checkout'
-
+import AdminPanel from '@/components/pages/AdminPanel'
 function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-gray-50">
         <Layout>
-          <Routes>
+<Routes>
             <Route path="/" element={<BrowseSites />} />
             <Route path="/sites/:id" element={<SiteDetail />} />
             <Route path="/orders" element={<MyOrders />} />
             <Route path="/wallet" element={<Wallet />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/admin" element={<AdminPanel />} />
           </Routes>
         </Layout>
         <ToastContainer

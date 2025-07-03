@@ -8,12 +8,12 @@ const Header = ({ cartItemCount, onCartToggle }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const location = useLocation()
   
-  const navigation = [
+const navigation = [
     { name: 'Browse Sites', href: '/', icon: 'Search' },
     { name: 'My Orders', href: '/orders', icon: 'Package' },
     { name: 'Wallet', href: '/wallet', icon: 'Wallet' },
+    { name: 'Admin Panel', href: '/admin', icon: 'Settings' },
   ]
-  
   const isActive = (path) => location.pathname === path
   
   return (
