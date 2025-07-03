@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "userId": "user1",
+    "amount": 2000.00,
+    "type": "deposit",
+    "paymentMethod": "card",
+    "createdAt": "2024-01-05T12:00:00Z"
+  },
+  {
+    "Id": 2,
+    "userId": "user1",
+    "amount": 1500.00,
+    "type": "purchase",
+    "paymentMethod": "wallet",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "userId": "user1",
+    "amount": 1000.00,
+    "type": "deposit",
+    "paymentMethod": "paypal",
+    "createdAt": "2024-01-07T15:20:00Z"
+  },
+  {
+    "Id": 4,
+    "userId": "user1",
+    "amount": 950.00,
+    "type": "purchase",
+    "paymentMethod": "wallet",
+    "createdAt": "2024-01-10T09:15:00Z"
+  },
+  {
+    "Id": 5,
+    "userId": "user1",
+    "amount": 1400.00,
+    "type": "purchase",
+    "paymentMethod": "wallet",
+    "createdAt": "2024-01-18T14:20:00Z"
+  },
+  {
+    "Id": 6,
+    "userId": "user1",
+    "amount": 500.00,
+    "type": "deposit",
+    "paymentMethod": "card",
+    "createdAt": "2024-01-12T08:45:00Z"
+  },
+  {
+    "Id": 7,
+    "userId": "user1",
+    "amount": 1100.00,
+    "type": "purchase",
+    "paymentMethod": "wallet",
+    "createdAt": "2024-01-08T16:45:00Z"
+  }
+]
